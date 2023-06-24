@@ -379,6 +379,7 @@ footer {
 .text_area_title{
   text-align: center !important;
   margin-bottom: 35px;
+  line-height: 20pt;
 }
 
 .margin-sm{
@@ -457,6 +458,7 @@ footer {
 .large_window{
   max-width: 900px;
 }
+
 
 
 
@@ -685,6 +687,12 @@ footer {
   .text_area.responsive{
     min-width: 10px;  
   }
+
+  .text_area.full{
+    max-width: 100% !important;
+  }
+
+  
   
   /* navbar css for mobile end */
 }
@@ -742,7 +750,8 @@ footer {
   
   .text_area_title{
     text-align: center !important;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
+    line-height: 20pt ;
 
   }
 
