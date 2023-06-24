@@ -3,9 +3,18 @@ var background = null;
 var navToggler = null;
 var navMenu = null;
 var navLinks = null;
-const maximumDist = 24;
+var maximumDist = 25;
+var ratio = 1;
 
 window.onload = () => {
+
+    var windowWidth = window.innerWidth;
+    ratio = windowWidth/700;
+    if(ratio > 1){
+      ratio = 1;
+    }
+    maximumDist = maximumDist * ratio;
+    console.log(maximumDist)
 
     // Seletor de todos os links âncora dentro do menu
     const Links = document.querySelectorAll('nav ul li a');
@@ -32,7 +41,7 @@ window.onload = () => {
         reveal();
 
         const t = document.body.getBoundingClientRect().top;
-        let value = t*-0.006;
+        let value = t*-0.006*ratio;
         if(value > maximumDist){
             value = maximumDist;
         }
