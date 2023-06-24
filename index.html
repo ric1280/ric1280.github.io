@@ -1,1 +1,376 @@
-Hello World
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ricardo Maia's Website</title>
+  
+  <link rel="stylesheet" href="style.css">
+
+
+  <script src="cdnjs.cloudflare.com_ajax_libs_three.js_r134_three.min.js"></script>
+  <script src="cdn.jsdelivr.net_npm_vanta@latest_dist_vanta.net.min.js"></script>
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/198702e4c4.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <section id="bg"></section>
+  <main>
+    <nav class="site-navbar">
+      <!-- site logo -->
+      <div class="logo_container">
+        <a id="logo_link" href="#hero" class="site-logo"><img id="logo_img"
+            src="profile_business_thumbnail_rounded_200x200.png" /></a>
+        <p class="header_text">Ricardo Maia</p>
+      </div>
+      <!-- site menu/nav -->
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#web3hub">Web3Hub</a></li>
+        <li><a href="#udemy">Courses</a></li>
+        <li><a href="#crypto">CryptoMages</a></li>
+        <li><a href="#tutoring">Tutoring</a></li>
+
+      </ul>
+
+
+
+      <!-- nav-toggler for mobile version only -->
+      <button class="nav-toggler">
+        <span></span>
+      </button>
+
+      <ul>
+        <li><a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github fa-2xl"></i></a></li>
+        <li><a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
+      </ul>
+    </nav>
+
+    <section id="hero" class="section hero-section">
+      <div class="hero-content hero-text">
+        <h1 class="slide-in xl_text">Join the Web Revolution Today</h1><br>
+        <div class="hero_2_text_container">
+          <p class="slide-in l_text">Empowering computer science students with unique web and web3 development skills
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section reveal reveal_left_right">
+
+      <div class="section_container">
+        <div class="section_area text_area">
+          <div id="profile_text_area"></div>
+          <h2 class="text_area_title">About Me</h2>
+          <p>
+            My name is Ricardo Costa Maia, and I was born in 1992. I'm passionate about everything related to web
+            application development, both on the back-end (servers + databases) and the front-end (UI and UX).
+          </p>
+
+          <h3>Key Points:</h3>
+          <ul>
+            <li class="margin-sm">I strive to code in an organized way, following the best programming practices.</li>
+            <li class="margin-sm">I pay special attention to creating scalable and well-structured code, divided into
+              modules.</li>
+            <li class="margin-sm">I test each module of the app I'm developing individually using unit tests.</li>
+            <li class="margin-sm">When integrating the modules with each other, I create integration tests to test the
+              communication between them.</li>
+            <li class="margin-sm">Documentation is important to me as it facilitates integration with other components
+              or software.</li>
+            <li class="margin-sm">I always make an effort to stay updated with the latest trends and technologies in web
+              development.</li>
+          </ul>
+
+        </div>
+
+        <div class="section_area section_image_container">
+          <img id="profile_img" class="section_image" src="Hero5.png">
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section reveal reveal_right_left">
+
+
+      <!--Education and Work Experience-->
+      <div class="section_container">
+        <div class="section_area section_image_container">
+          <img id="results_img" class="section_image" src="results1.png">
+        </div>
+
+        <div class="section_area text_area">
+          <div id="work_text_area"></div>
+          <h2 class="text_area_title">Education and Work Experience</h2>
+          <ul>
+            <li class="margin-sm">I graduated in Computer Science and Engineering at the <a
+                href="https://tecnico.ulisboa.pt/en/education/courses/masters-programmes/computer-science-and-engineering/"
+                target="_blank" style="color:white">Instituto Superior Técnico</a>, of Lisbon.</li>
+            <li class="margin-sm">Interned and worked for two years at <a href="https://www.cybersafe.pt/"
+                target="_blank" style="color: white;">Cybersafe</a>, a company focused on providing cybersecurity
+              consulting services to businesses.</li>
+            <li class="margin-sm">I'm currently teaching programming to undergraduate students majoring in Computer
+              Science and Engineering.</li>
+          </ul>
+        </div>
+
+
+
+
+      </div>
+    </section>
+    <section class="section reveal reveal_left_right">
+
+      <div class="section_container">
+
+        <div class="section_area text_area">
+
+          <div id="projects_text_area"></div>
+
+          <div style="position: relative;">
+            <h2 class="text_area_title">Current Projects</h2>
+            <ul>
+              <li class="margin-sm">Currently involved in the project called "Web3Hub," which focus is assisting
+                students
+                in specializing in web and web3 development, including smart contract integration using blockchain
+                technology.</li>
+              <li class="margin-sm">Launching web development courses on the Udemy platform soon.</li>
+              <li class="margin-sm">Working on a personal project of a NFT game, following a Play-to-Earn model. The
+                game
+                is called CryptoMages and is scheduled to be released in Q4 of 2024.</li>
+            </ul>
+          </div>
+
+
+
+        </div>
+        <div class="section_area section_image_container">
+          <img id="projects_img" class="section_image" src="projects.png">
+        </div>
+      </div>
+
+    </section>
+
+
+
+    <section id="web3hub" class="section reveal reveal_bottom_up">
+      <div class="section_container">
+        <div class="section_area text_area led_container purple large_window">
+
+          <span class="text_area_title" style="position: relative;">
+            <h2>Web3Hub</h2>
+            <h5>(Entering door for web and web3 development)</h5>
+          </span>
+
+          <div style="position: relative;" class="in_section_container">
+            <div class="in_section_area left">
+              <img class="in_section_img" src="web3hub_logo.png">
+            </div>
+
+            <div class="in_section_area" style="position: relative;">
+
+              <h3>Portal for Web and Web3 Developers</h3>
+              <ul>
+                <li class="margin-sm justify">Blog with didactic posts covering topics related to blockchain, web3,
+                  JavaScript,
+                  Node.js,
+                  and more.</li>
+              </ul>
+
+            </div>
+
+          </div>
+
+          <div class="in_section_area" style="position: relative;display:flex;justify-content: center; ">
+            <a href="https://web3hub.live" target="_blank">
+              <div class="section_btn purple">
+                Visit Website
+              </div>
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section reveal reveal_bottom_up">
+      <div class="section_container">
+        <div class="section_area text_area responsive">
+
+          <span class="text_area_title">
+            <h2>Web3Hub Academy [Work in Progress]</h2>
+          </span>
+
+          <div class="in_section_container">
+
+
+            <div class="in_section_area">
+
+
+              <ul>
+                <li class="margin-sm justify">A platform focused on providing the necessary skills for students to land their
+                  first job as web
+                  developers.</li>
+                <li class="margin-sm justify">Emphasis on building real-world web applications for companies as a means of
+                  learning.</li>
+                <li class="margin-sm justify">Help students to build a professional portfolio.</li>
+              </ul>
+            </div>
+          </div>
+    </section>
+
+
+    <section id="udemy" class="section reveal reveal_bottom_up">
+      <div class="section_container">
+        <div class="section_area text_area responsive">
+
+          <span class="text_area_title">
+            <h2>Udemy Courses [Work in Progress]</h2>
+          </span>
+
+          <div class="in_section_container">
+
+
+            <div class="in_section_area">
+              <ul>
+                <li class="margin-sm justify">I will be providing web development courses on Udemy.</li>
+                <li class="margin-sm justify">Stay tunned.</li>
+              </ul>
+            </div>
+          </div>
+    </section>
+
+
+
+    <section id="crypto" class="section reveal reveal_right_left">
+
+
+      <!--Education and Work Experience-->
+      <div class="section_container multi">
+        <div class="header_img">
+          <img style="width: 100%;" src="cryptomages.png">
+        </div>
+
+        <div class="section_container">
+          <div class="section_area section_image_container">
+            <img id="world_cryptoland" class="section_image" src="World_cryptoland_full.gif">
+          </div>
+
+          <div class="section_area text_area">
+
+            <h2 class="text_area_title">CryptoMages [Work in progress]</h2>
+            <ul>
+              <li class="margin-sm">12.500 different Mages to collect from 4 different nations.</li>
+              <li class="margin-sm">Each mage has an unique history generated based on his attributes.</li>
+              <li class="margin-sm">Fight for your nation to bring supremacy over cryptoland.</li>
+              <li class="margin-sm">Earn Soul tokens while playing the game.</li>
+              <li class="margin-sm">Upgrade your gains investing your Soul tokens or sell it on the market.</li>
+            </ul>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+
+    <section id="tutoring" class="section reveal reveal_bottom_up">
+      <div class="section_container">
+        <div class="section_area text_area led_container green large_window">
+
+          <span class="text_area_title" style="position: relative;">
+            <h2>Tutoring</h2>
+          </span>
+
+          <div style="position: relative;" class="in_section_container">
+            <div class="in_section_area left">
+              <img class="in_section_img" src="Tutoring.PNG">
+            </div>
+
+            <div class="in_section_area" style="position: relative;">
+
+              <h3>Tutoring for programming related courses (Portuguese)</h3>
+              <p>Programming languages:</p>
+              <ul>
+                <div class="content-wrapper">
+                  <div class="content-item">
+                    <li class="margin-sm justify">C</li>
+                    <li class="margin-sm justify">C++</li>
+                    <li class="margin-sm justify">C#</li>
+                    <li class="margin-sm justify">Java</li>
+
+                  </div>
+
+                  <div class="content-item">
+                    <li class="margin-sm justify">Python</li>
+                    <li class="margin-sm justify">HTML</li>
+                    <li class="margin-sm justify">CSS</li>
+                    <li class="margin-sm justify">JavaScript</li>
+                  </div>
+                  <div class="content-item">
+
+                    <li class="margin-sm justify">NodeJs</li>
+                    <li class="margin-sm justify">PHP</li>
+                    <li class="margin-sm justify">Prolog</li>
+                  </div>
+                </div>
+              </ul>
+
+            </div>
+
+          </div>
+
+          <div class="in_section_area" style="position: relative;display:flex;justify-content: center; ">
+            <a href="https://www.explicas.me/index.php?op=perfil&id=113987" target="_blank">
+              <div class="section_btn green">
+                Visit Website
+              </div>
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <footer>
+      <h2>Contact Me</h2> 
+      <h3>for business proposals</h3>
+      <br>
+      <p>Email: ricardo.maia@web3hub.live</p>
+      <br>
+      <ul class="social-links">
+        <li><a href="https://github.com/" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a></li>
+        <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
+      </ul>
+    </footer>
+  </main>
+</body>
+
+
+<script>
+  VANTA.NET({
+    el: "#bg",
+    mouseControls: false,
+    touchControls: false,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    color: 0xffffff,
+    backgroundColor: 0x141229,
+    maxDistance: 0
+  })
+</script>
+
+</html>
