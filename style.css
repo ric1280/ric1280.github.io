@@ -6,6 +6,10 @@
     height: 100vh;
 }
 
+h5{
+  font-weight: bold;
+}
+
 main{
     position: absolute;
     z-index: 1;
