@@ -221,10 +221,12 @@ body {
   /* mobile breakpoint start */
   
 .header_img{
-  max-width: 80vw;
+  max-width: 750px;
   width: auto;
   height: auto;
-  
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
 
 }
 
@@ -233,9 +235,12 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   flex: 1 1 auto;
+  
 }
 
+
 .section {
+    
     position: relative;
     min-height: 30vh;
     display: flex;
@@ -243,6 +248,7 @@ body {
     align-items: center;
     text-align: center;
     color: #fff;
+    width: 100%;
     padding-top: 50px; /* Add padding to create separation */
     padding-bottom: 50px; /* Add padding to create separation */
 }
@@ -449,7 +455,10 @@ footer {
   width: fit-content;
   height: fit-content;
   min-width: 60%;
+  max-width: 1130px;
   text-align: center;
+ 
+  
   
 }
 
