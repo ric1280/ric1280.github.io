@@ -749,7 +749,7 @@ footer {
     border-radius: 2%;
     font-size: 3.2vw;
     line-height: 4vw;
-    max-width: 200px;
+    max-width: calc(100vw - 100px);
   }
   
   .text_area_title{
