@@ -17,7 +17,7 @@ window.onload = () => {
     console.log(maximumDist)
 
     // Seletor de todos os links âncora dentro do menu
-    const Links = document.querySelectorAll('nav ul li a');
+    const Links = document.querySelectorAll('.internal_link');
 
     // Adiciona o evento de clique a cada link
     Links.forEach(link => {
